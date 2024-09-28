@@ -6,12 +6,11 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of my-GEO712-repository is to learn how to work with GitHub. \*
-I transferred my first project’s content - last week’s activity.
+The goal of my-GEO712-repository is to learn how to work with GitHub
 
-# Here is my previous activity’s content:
+## Last week’s project
 
-## Load the packages
+Here is my previous activity:
 
 ``` r
 #install.packages(c("here","usethis","annotater"))
@@ -124,7 +123,7 @@ usethis::use_readme_rmd()
 This is my first repository. It contains several folders with assets. -
 Folder `images` cıntains jpeg, bmp, and so on files that i need for my
 documents. - Folder `plots` contains images that i generate through
-code, possibly for publisher.
+code, pussibly for publisher.
 
 The function `print()` will display the argument on the screen.
 
@@ -199,4 +198,4 @@ This repository now is set up for git.
 
 ## Github
 
-I also set up or I’m working to set up a github repository.
+I also set up or I ’m working to set up a github repository.

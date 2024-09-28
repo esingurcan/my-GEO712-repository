@@ -26,6 +26,7 @@ usethis::use_git()
 ## Set up for GitHub
 ```{r}
 usethis::use_github()
+usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
 ```
 
 ## Create a README file
@@ -33,4 +34,97 @@ usethis::use_github()
 ```{r}
 usethis::use_readme_rmd()
 ```
+
+# I was unsure so I added my last week's activity here as well:
+
+```{r}
+#install.packages(c("here","usethis","annotater"))
+library(here)
+library(usethis)
+library(annotater)
+```
+
+## Review the status
+```{r}
+renv::status()
+```
+
+## Readme
+```{r}
+usethis::use_readme_rmd()
+```
+
+# My First Repo
+<!-- badgers:start -->
+<!-- badgers:end -->
+
+This is my first repository. It contains several folders with assets.
+- Folder `images` cıntains jpeg, bmp, and so on files that i need for my documents.
+- Folder `plots` contains images that i generate through code, pussibly for publisher.
+
+The function `print()` will display the argument on the screen. 
+
+# First Assignment Content
+# My Research Interest
+My research focuses on understanding **_early markers_** and the **_genetic component of autism_**. 
+In these studies, we are investigating;
+
+- Early markers of autism in children with a familial history of autism, and 
+- Autism characteristics in family members of individuals with autism, focusing on the perceptual strengths associated with autism.
+
+[Our lab website](https://pnb.mcmaster.ca/rutherford/)
+
+
+# Favorites
+## Favorite Music
+1. Hollow Coves - Home
+2. Gracie Abrams - I love you, I'm sorry
+3. Noah Kahan ft Hozier - Northern Attitude
+4. Noah Kahan - Everything, everywhere
+5. Zach Bryan - Pink skies
+
+## Favorite Equation
+$$
+y =  \log_8(\frac{10}{8})
+$$
+
+## Favorite Artists
+Artist Name | Achievements 
+----------| ------
+Noah Kahan | Best New Artist iHeart Radio Music Awards, 2024
+Gracie Abrams | Social Star Award iHeart Radio Music Awards, 2024 and Forbes	30 Under 30	2nd
+Hollow Coves | They did not win any awards but i love the stories behind their songs
+Taylor Swift | She won 667 awards wow (according to wiki)
+Post Malone | He won 30 awards including 10 Billboard Music Awards
+
+# A Chunk of Code
+```
+model <- '
+  # Direct paths
+  Expressive_v ~ mouth_percent + aut_degree_cont + ADOS_Score + Gross_v 
+  # Moderation path
+  Expressive_v ~ mouth_percent*ADOS_Score
+  Expressive_v ~ mouth_percent*aut_degree_cont
+'
+
+model_2 <- '
+  # Direct paths
+  Receptive_v ~ mouth_percent + aut_degree_cont + ADOS_Score + Gross_v 
+  # Moderation path
+  Receptive_v ~ mouth_percent*ADOS_Score
+  Receptive_v ~ mouth_percent*aut_degree_cont
+'
+
+fit <- sem(model, data = data_12m) # For expressive
+summary(fit, fit.measures = TRUE, standardized = TRUE, rsquare = TRUE)
+
+fit_2 <- sem(model_2, data= data_12m) # For Receptive
+summary(fit_2, fit.measures = TRUE, standardized = TRUE, rsquare = TRUE)
+```
+
+## Git 
+This repository now is set up for git.
+
+## Github
+I also set up or I 'm working to set up a github repository.
 
