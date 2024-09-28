@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of my-GEO712-repository is to learn how to work with GitHub
+The goal of my-GEO712-repository is to learn how to work with GitHub. I
+have added my first project here:
 
 ## Last week’s project
 

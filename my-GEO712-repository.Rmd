@@ -37,6 +37,8 @@ usethis::use_readme_rmd()
 
 # I was unsure so I added my last week's activity here as well:
 
+## My First Project:
+
 ```{r}
 #install.packages(c("here","usethis","annotater"))
 library(here)
@@ -46,12 +48,12 @@ library(annotater)
 
 ## Review the status
 ```{r}
-renv::status()
+#renv::status()
 ```
 
 ## Readme
 ```{r}
-usethis::use_readme_rmd()
+#usethis::use_readme_rmd()
 ```
 
 # My First Repo
