@@ -26,7 +26,6 @@ usethis::use_git()
 ## Set up for GitHub
 ```{r}
 usethis::use_github()
-usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
 ```
 
 ## Create a README file
