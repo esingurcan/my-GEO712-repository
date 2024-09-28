@@ -1,0 +1,36 @@
+---
+title: "my-GEO712-repository"
+author: "Egurcan"
+date: "2024-09-28"
+output: html_document
+---
+
+## Load Packages
+```{r}
+#install.packages("here")
+#install.packages("usethis")
+#install.packages("annotater")
+#install.packages("renv")
+
+library(here)
+library(usethis)
+library(annotater)
+library(renv)
+```
+
+## Inıtialize git repository
+```{r}
+usethis::use_git()
+```
+
+## Set up for GitHub
+```{r}
+usethis::use_github()
+```
+
+## Create a README file
+* I transferred my pevious activity to the README markdown
+```{r}
+usethis::use_readme_rmd()
+```
+
