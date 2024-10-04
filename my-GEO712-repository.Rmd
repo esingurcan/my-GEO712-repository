@@ -47,7 +47,7 @@ library(annotater)
 
 ## Review the status
 ```{r}
-#renv::status()
+renv::status()
 ```
 
 ## Readme
